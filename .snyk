@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.22.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -28,3 +28,20 @@ patch:
         patched: '2019-10-04T03:42:52.274Z'
     - '@opencensus/exporter-stackdriver > googleapis > googleapis-common > google-auth-library > gtoken > gaxios > https-proxy-agent':
         patched: '2019-10-04T03:42:52.274Z'
+  SNYK-JS-LODASH-567746:
+    - cheerio > lodash:
+        patched: '2022-03-26T16:40:41.170Z'
+    - requizzle > lodash:
+        patched: '2022-03-26T16:40:41.170Z'
+    - request-promise > request-promise-core > lodash:
+        patched: '2022-03-26T16:40:41.170Z'
+    - winston > async > lodash:
+        patched: '2022-03-26T16:40:41.170Z'
+    - staticmaps > request-promise > request-promise-core > lodash:
+        patched: '2022-03-26T16:40:41.170Z'
+    - pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2022-03-26T16:40:41.170Z'
+    - pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2022-03-26T16:40:41.170Z'
+    - pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2022-03-26T16:40:41.170Z'
